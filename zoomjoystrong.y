@@ -19,6 +19,7 @@
 
 %union {int i; double f;}
 
+/** Definitions and declarations of tokens from the flex file **/
 %token END
 %token END_STATEMENT
 %token POINT
@@ -32,6 +33,7 @@
 
 %%
 
+/** The grammar rules that I established for the language **/
 statement_list:		statement END
 	 |		statement statement_list
 ;

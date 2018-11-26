@@ -1,3 +1,10 @@
+/**********************************************************************
+ * This is the header file of zoomjoystrong.c. Contains all the 
+ * methods used in the zoomjoystrong program.
+ *
+ * @author Trung-Vuong Pham
+ * @date November 26, 2018
+ *********************************************************************/
 #ifndef			__ZOOMJOYSTRONG__
 #define			__ZOOMJOYSTRONG__
 
@@ -23,6 +30,5 @@ void line( int x1, int y1, int x2, int y2 );
 void circle( int x, int y, int r);
 void rectangle( int x, int y, int w, int h);
 void finish();
-void sdl_ellipse(SDL_Renderer* r, int x0, int y0, int radiusX, int radiusY);
 
 #endif
